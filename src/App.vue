@@ -10,8 +10,6 @@ import TreePanelDemo from '@/components/primevue/demo/TreePanelDemo.vue'
 import TreeTableMiscDemo from '@/components/primevue/demo/TreeTableMiscDemo.vue'
 import TreeTableFilterDemo from '@/components/primevue/demo/TreeTableFilterDemo.vue'
 import DateAutocompleteDemo from '@/components/primevue/demo/DateAutocompleteDemo.vue'
-//import HoverMegaMenuDemo from '@/components/primevue/demo/HoverMegaMenuDemo.vue'
-//import HoverSplitButtonDemo from '@/components/primevue/demo/HoverSplitButtonDemo.vue'
 
 let tabIndex = ref('0')
 const experimental = 0
