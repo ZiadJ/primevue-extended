@@ -268,8 +268,7 @@ function alignPopup(
 
   currentPosition.value = position
 
-  let newAlignment: boolean | null = null
-
+  let newAlignment: Alignment | null = null
   // Default to center alignment if current alignment doesn't match position
   if (
     isTopOrBottom
@@ -651,3 +650,4 @@ defineExpose({
   }
 }
 </style>
+
