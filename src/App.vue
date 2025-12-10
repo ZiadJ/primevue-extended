@@ -77,7 +77,7 @@ if (experimental) tabIndex.value = '9'
         </TabPanel>
         <TabPanel value="2">
           <br />
-          A basic tour guide component using the Popup component.
+          A basic tour guide component using the Popup component
           <br />
           <br />
           <Divider />
@@ -87,7 +87,7 @@ if (experimental) tabIndex.value = '9'
         <TabPanel value="3">
           <br />
           A slider component with clickable ticks and an input element over each
-          handle.
+          handle
           <br />
           <br />
           <Divider />
@@ -95,7 +95,7 @@ if (experimental) tabIndex.value = '9'
         </TabPanel>
         <TabPanel value="4">
           <br />
-          A knob component with a customizable pointer.
+          A knob component with a customizable pointer
           <br />
           <br />
           <Divider />
@@ -104,14 +104,14 @@ if (experimental) tabIndex.value = '9'
         <TabPanel value="5">
           <br />
           A component that dynamicaly groups tabular data by specifiable
-          columns.
+          columns
           <br />
           <Divider />
           <PivotTreeTableDemo />
         </TabPanel>
         <TabPanel value="6">
           <br />
-          A panel menu that works like the tree select.
+          A panel menu that works like the tree select
           <br />
           <br />
           <Divider />
@@ -145,7 +145,7 @@ if (experimental) tabIndex.value = '9'
         </TabPanel>
         <TabPanel value="9">
           <br />
-          A directive that autocompletes dates while typing.
+          A directive that autocompletes dates while typing
           <br />
           <br />
           <Divider />
@@ -153,7 +153,7 @@ if (experimental) tabIndex.value = '9'
         </TabPanel>
         <TabPanel v-if="experimental" value="10">
           <br />
-          The MegaMenu component with hover support.
+          The MegaMenu component with hover support
           <br />
           <br />
           <Divider />
