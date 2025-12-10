@@ -17,11 +17,23 @@ if (experimental) tabIndex.value = '9'
 </script>
 
 <template>
-  <ThemeSwitcher>
+<ThemeSwitcher>
+  <div>
     <p class="font-semibold text-lg">
       A collection of components extending Primevue
     </p>
-  </ThemeSwitcher>
+    <a 
+      href="https://github.com/ZiadJ/primevue-extended"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center gap-2 mt-2 text-muted-color hover:text-primary transition-colors duration-200 font-medium"
+    >
+      <i class="pi pi-github text-xl"></i>
+      <span>Repository</span>
+      <i class="pi pi-arrow-up-right text-sm"></i>
+    </a>
+  </div>
+</ThemeSwitcher>
   <div class="card">
     <Tabs v-model:value="tabIndex" scrollable>
       <TabList>
