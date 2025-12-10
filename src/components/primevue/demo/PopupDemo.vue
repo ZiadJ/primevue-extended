@@ -138,7 +138,7 @@ function show(e) {
       <Menu :model="menuItems" pt:root:style="border: 0" />
     </div>
     <div v-else class="py-24 px-16 text-center">
-      {{ position || 'unset' }} {{ alignment || 'unset' }}
+      {{ position || 'unset' }}, {{ alignment || 'unset' }}
       <br />
       {{ !popup.flipCount ? '' : 'reoriented to ' + popup.currentPosition + ' to fit in' }}
     </div>
