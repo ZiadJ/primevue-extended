@@ -81,7 +81,7 @@ function show(e) {
 
   <div class="m-16 text-center mb-[500px]">
     <Panel
-      class="popup inline-block !pt-6"
+      class="popup inline-block w-fit m-auto !pt-6"
       pt:header="!hidden"
       @click="popup.show($event, null, '.popup')"
     >
@@ -144,3 +144,4 @@ function show(e) {
     </div>
   </Popup>
 </template>
+
