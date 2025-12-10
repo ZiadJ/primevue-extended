@@ -53,7 +53,7 @@ if (experimental) tabIndex.value = '9'
         </TabPanel>
         <TabPanel value="1">
           <br />
-          A tooltip component that buids upon the Popup component, featuring:
+          A tooltip component that extends the Popup component, featuring:
           <ul class="list-disc ml-4">
             <li>Dynamic nested element targeting</li>
             <li>Fully decoupled two-way binding</li>
