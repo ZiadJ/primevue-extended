@@ -140,7 +140,7 @@ function show(e) {
     <div v-else class="py-24 px-16 text-center">
       {{ position || 'unset' }} {{ alignment || 'unset' }}
       <br />
-      {{ !popup.flipCount ? '' : 'reoriented to ' + popup.currentPosition }}
+      {{ !popup.flipCount ? '' : 'reoriented to ' + popup.currentPosition + ' to fit in' }}
     </div>
   </Popup>
 </template>
