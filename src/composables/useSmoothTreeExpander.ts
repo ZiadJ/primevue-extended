@@ -73,7 +73,7 @@ export function useSmoothTreeExpander(
   `
 
   onMounted(() => {
-    const element = treeRef.value.$el as HTMLElement
+    const element = treeRef.value?.$el as HTMLElement
 
     if (!element) return
 
@@ -84,7 +84,7 @@ export function useSmoothTreeExpander(
   })
 
   onBeforeUnmount(() => {
-    const element = treeRef.value.$el as HTMLElement
+    const element = treeRef.value?.$el as HTMLElement
 
     if (element) element.classList.remove(UNIQUE_ID)
 
@@ -179,3 +179,4 @@ export function useSmoothTreeExpander(
     isLastChild,
   }
 }
+
