@@ -105,6 +105,6 @@ A directive that autocompletes dates while typing.
 
 Provides date autocompletion with three modes:
 
-- Date only (`dd/mm/yyyy`)
-- DateTime (`dd/mm/yyyy hh:mm`)
-- Time only (`hh:mm`)
+- Date only
+- DateTime
+- Time only
