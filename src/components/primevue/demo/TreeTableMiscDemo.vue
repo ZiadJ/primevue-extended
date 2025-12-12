@@ -32,7 +32,7 @@
       </template>
     </Column>
     <Column field="size" header="Size"> </Column>
-    <Column field="type" header="Type" rowEditor="true"> </Column>
+    <Column field="type" header="Type"> </Column>
   </TreeTable>
   <!-- {{ expandedKeys }} -->
 </template>
@@ -90,3 +90,4 @@ NodeService.getTreeTableNodes().then((data) => (nodes.value = data))
 }
 */
 </style>
+
