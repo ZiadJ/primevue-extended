@@ -1,5 +1,3 @@
-# Components Documentation
-
 ## 1. Popup
 
 A flexible popup menu component that supports:
