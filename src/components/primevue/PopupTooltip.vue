@@ -330,7 +330,7 @@ onMounted(async () => {
   listener = props.rootSelector
     ? typeof props.rootSelector === 'string'
       ? (document.querySelector(props.rootSelector) as HTMLElement)
-      : props.rootSelector
+      : props.rootSelector.value
     : contentWrapper.value
 
   listener?.classList.add('tooltip-click-listener')
@@ -373,3 +373,4 @@ defineExpose({
   /* easing: 'cubic-bezier(0.68, -0.55, 0.265, 1.55)' */
 }
 </style>
+
