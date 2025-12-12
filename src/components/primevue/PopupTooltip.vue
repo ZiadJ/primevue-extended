@@ -26,7 +26,6 @@ import {
 import Popup from './Popup.vue'
 import type { Position, Alignment } from './Popup.vue'
 import type { PopupProps } from './Popup.vue'
-import type { Rect } from '@floating-ui/vue'
 
 interface PopupTooltipProps extends /* @vue-ignore */ PopupProps {
   position?: Position
@@ -116,8 +115,8 @@ function parseJson<T = unknown>(text: string | null | undefined): T | null {
 
 function smoothResize(
   element: HTMLElement,
-  oldRect: Rect,
-  newRect: Rect,
+  oldRect: DOMRect,
+  newRect: DOMRect,
   onComplete?: () => void
 ) {
   if (!element || !oldRect || !newRect) return
@@ -373,4 +372,5 @@ defineExpose({
   /* easing: 'cubic-bezier(0.68, -0.55, 0.265, 1.55)' */
 }
 </style>
+
 
