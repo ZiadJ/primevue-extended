@@ -6,8 +6,6 @@ A flexible popup menu component that supports:
 - Click and hover triggers
 - Focus management
 
-Features a data table with three different popup implementations (Menu, Popup click, Popup hover/click) and position controls for fine-tuning placement.
-
 ---
 
 ## 2. Tooltip
@@ -18,15 +16,11 @@ A tooltip component that extends the Popup component, featuring:
 - Fully decoupled two-way binding
 - Rich content support
 
-Includes examples of both one-way and two-way binding patterns, with interactive data tables demonstrating tooltip functionality with quantity sliders and text editing.
-
 ---
 
 ## 3. Guided Tour
 
 A basic tour guide component using the Popup component.
-
-Simple implementation for creating step-by-step guided tours through your application interface.
 
 ---
 
@@ -93,8 +87,6 @@ Custom filter functionality for the TreeTable with the following features:
 - Auto unfold
 - High performance
 
-Includes global search and per-column filtering with real-time highlighting of matching text across hierarchical file system data.
-
 ---
 
 ## 9. Tree Table Misc.
@@ -105,18 +97,14 @@ Extending the TreeTable with the following functionality:
 - Animated expansion
 - Hierarchy lines
 
-Visual enhancements showing parent-child relationships with connecting lines and smooth expand/collapse animations for tree nodes.
-
 ---
 
 ## 10. Date Completion
 
 A directive that autocompletes dates while typing.
 
-Provides intelligent date input with three modes:
+Provides date autocompletion with three modes:
 
 - Date only (`dd/mm/yyyy`)
 - DateTime (`dd/mm/yyyy hh:mm`)
 - Time only (`hh:mm`)
-
-Auto-completes as you type for faster data entry.
