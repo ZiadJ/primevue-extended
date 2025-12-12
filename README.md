@@ -101,8 +101,6 @@ Extending the TreeTable with the following functionality:
 
 ## 10. Date Completion
 
-A directive that autocompletes dates while typing.
-
 Provides date autocompletion with three modes:
 
 - Date only
