@@ -53,9 +53,7 @@ Displays circular gauge controls with adjustable:
 
 ## 6. Pivot Table
 
-A component that dynamically groups tabular data by specifiable columns.
-
-Features a product inventory table with:
+A component that dynamically groups tabular data by specifiable columns featuring:
 
 - Multi-column grouping via dropdown selection
 - Resizable columns
