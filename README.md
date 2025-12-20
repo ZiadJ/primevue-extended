@@ -53,13 +53,7 @@ Displays circular gauge controls with adjustable:
 
 ## 6. Pivot Table
 
-A component that dynamically groups tabular data by specifiable columns featuring:
-
-- Multi-column grouping via dropdown selection
-- Resizable columns
-- Sortable headers
-- Inline quantity editing
-- Expandable/collapsible grouped rows
+A component that dynamically groups tabular data by specifiable columns.
 
 ---
 
